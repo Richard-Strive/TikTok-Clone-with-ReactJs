@@ -5,6 +5,10 @@ html {
 .app {
   background-color: black;
   height: 100%;
+
+  display: grid;
+  place-items: center;
+  /*un piccolo hack per fare centrare un blocco di elemento dobbiamo usare 1.display: grid, 2.place-items: center;  possiamo centrare gli elementi con il tag html <center></center>*/
 }
 
 .app_videos {
