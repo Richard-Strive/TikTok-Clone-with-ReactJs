@@ -1,3 +1,23 @@
 html {
   scroll-snap-type: y mandatory;
 }
+
+.app {
+  background-color: black;
+}
+
+.app_videos {
+  height: 500px;
+  overflow: scroll;
+  /* quando un contenitore di un elemento e' piu' piccolo di dell'elemento stesso, possiamo risolvere sto problema con la propieta' OVERFLOW E I SUOI VALORI*/
+  width: 80%;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+  background-color: white;
+}
+
+.app_videos::-webkit-scrollbar {
+  display: none;
+}
+
+/*per togliere il scrollbar e rendere lo scroll piu' liscio*/

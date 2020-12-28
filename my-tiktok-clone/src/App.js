@@ -3,7 +3,7 @@ import Video from "./components/Video";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h1>Hello DevRichard, let's build tiktok clone!</h1>
       <div className="app_videos">
         <Video />
