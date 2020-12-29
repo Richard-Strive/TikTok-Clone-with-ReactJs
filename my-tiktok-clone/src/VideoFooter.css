@@ -1,7 +1,7 @@
 .videoFooter {
   position: relative;
   color: white;
-  bottom: 70px;
+  bottom: 110px;
   display: flex;
 }
 
@@ -9,11 +9,32 @@
   flex: 1;
   padding-left: 20px;
 }
+.videoFooter_text > p {
+  padding-top: 10px;
+}
+
+.videoFooter_icon {
+  position: absolute;
+  /**/
+}
+
+.videoFooter_ticker {
+  padding-top: 15px;
+}
+.videoFooter_ticker > .ticker {
+  /* height: fit-content; */
+  margin-left: 30px;
+  width: 80%;
+}
 
 .videoFooter_record {
   animation: spinTheRec infinite 5s linear;
   height: 50px;
   filter: invert(1);
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  /* padding-right: 30px; strane cose che danno strani effetti */
 }
 
 @keyframes spinTheRec {
