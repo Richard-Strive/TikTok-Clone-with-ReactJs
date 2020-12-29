@@ -12,10 +12,10 @@ export default function VideoFooter() {
       <div className="videoFooter_text">
         <h3>@RichardStriveSchool</h3>
         <p>
-          <Ticker>
+          <Ticker mode="smooth">
             {({ index }) => (
               <>
-                <h1>This is my Tiktok clone.</h1>
+                <p>This is my Tiktok clone.</p>
               </>
             )}
           </Ticker>
