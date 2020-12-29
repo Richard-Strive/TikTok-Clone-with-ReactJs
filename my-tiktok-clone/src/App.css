@@ -19,6 +19,7 @@ html {
   max-width: 500px;
   scroll-snap-type: y mandatory;
   background-color: white;
+  border-radius: 20px;
 }
 
 .app_videos::-webkit-scrollbar {

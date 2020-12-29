@@ -1,0 +1,26 @@
+.videoFooter {
+  position: relative;
+  color: white;
+  bottom: 70px;
+  display: flex;
+}
+
+.videoFooter_text {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.videoFooter_record {
+  animation: spinTheRec infinite 5s linear;
+  height: 50px;
+  filter: invert(1);
+}
+
+@keyframes spinTheRec {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

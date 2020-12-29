@@ -1,12 +1,18 @@
 .video {
-  border: 5px solid red;
   height: 100%;
   width: 100%;
   scroll-snap-align: start;
   position: relative;
 }
 
-iframe {
+/* iframe {
+  height: 100%;
+  width: 100%;
+} */
+
+.video_player {
+  object-fit: fill;
+  /*object-fit viene utilizzato per fare ridimensionare un video o un immagine all'interno del suo container;*/
   height: 100%;
   width: 100%;
 }
