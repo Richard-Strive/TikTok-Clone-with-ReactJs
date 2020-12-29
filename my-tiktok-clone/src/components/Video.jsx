@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import VideoFooter from "./VideoFooter";
+import SideBar from "./SideBar";
 import "../Video.css";
+
 export default function Video() {
   const videoRef = useRef(null);
   /* Used to connect to out DOM element e.g document.querySelector("video_player") */
@@ -37,7 +39,7 @@ export default function Video() {
         description="Billie it's not my lover"
         song="Michael Jackson"
       />
-      {/*Video SideBar*/}
+      <SideBar />
     </div>
   );
 }
