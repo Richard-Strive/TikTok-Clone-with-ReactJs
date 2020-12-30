@@ -3,7 +3,15 @@ import VideoFooter from "./VideoFooter";
 import SideBar from "./SideBar";
 import "../Video.css";
 
-export default function Video() {
+export default function Video({
+  url,
+  channel,
+  description,
+  song,
+  likes,
+  message,
+  share,
+}) {
   const videoRef = useRef(null);
   /* Used to connect to out DOM element e.g document.querySelector("video_player") */
   const [playing, setPlaying] = useState(false);
@@ -32,14 +40,10 @@ export default function Video() {
         loop
         onClick={onVideoPress}
         ref={videoRef}
-        src="https://v77.tiktokcdn.com/b28b77b0f32e596810288c15c9151c12/5feca8d1/video/tos/alisg/tos-alisg-pve-0037c001/c340f490eb04453683a6365e181e1d5c/?a=1233&br=3618&bt=1809&cd=0%7C0%7C1&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=20201230102021010189049225250305CE&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=ajtoc2V2eHd2eDMzZTczM0ApOjtoMzw8NmRlNzRoNWk1O2dfYm1kbC02MTNfLS1hMTRzczQtNTRjYzMuLmE2MmAzYWA6Yw%3D%3D&vl=&vr="
+        src={url}
       ></video>
-      <VideoFooter
-        channel="MTV"
-        description="Billie it's not my lover"
-        song="Michael Jackson"
-      />
-      <SideBar />
+      <VideoFooter channel={channel} description={description} song={song} />
+      <SideBar likes={likes} share={share} message={message} />
     </div>
   );
 }
