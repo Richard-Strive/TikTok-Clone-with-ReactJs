@@ -32,7 +32,7 @@ export default function Video() {
         loop
         onClick={onVideoPress}
         ref={videoRef}
-        src="https://v77.tiktokcdn.com/939ee1fad6551bbcb4b1005e7f1199d4/5febf48e/video/tos/alisg/tos-alisg-pve-0037c001/72e656515a184a1092e8eb3607bf190c/?a=1233&br=1088&bt=544&cd=0%7C0%7C1&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=202012292131120101890501593D1A61FE&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=MzdtaTw8NTZveTMzZzczM0ApZzs2OmU3aTw3N2dlZTpmO2dwcDIxXzUtNC1fLS0zMTRzczQvNjRiYjU0Ly5jLzE0XzY6Yw%3D%3D&vl=&vr="
+        src="https://v77.tiktokcdn.com/b28b77b0f32e596810288c15c9151c12/5feca8d1/video/tos/alisg/tos-alisg-pve-0037c001/c340f490eb04453683a6365e181e1d5c/?a=1233&br=3618&bt=1809&cd=0%7C0%7C1&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=20201230102021010189049225250305CE&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=ajtoc2V2eHd2eDMzZTczM0ApOjtoMzw8NmRlNzRoNWk1O2dfYm1kbC02MTNfLS1hMTRzczQtNTRjYzMuLmE2MmAzYWA6Yw%3D%3D&vl=&vr="
       ></video>
       <VideoFooter
         channel="MTV"
